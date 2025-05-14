@@ -145,7 +145,7 @@ Publish the website in the LocalHost.
         </div>
 
         <div class="author">
-            <p><b>Akshaay Vardhan</b></p>
+            <p><b> Kevin </b></p>
         </div>
 
         <div class="end">

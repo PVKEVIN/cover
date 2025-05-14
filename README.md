@@ -31,7 +31,7 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-'''
+```
 <!DOCTYPE html>
 <html>
 
@@ -145,7 +145,7 @@ Publish the website in the LocalHost.
         </div>
 
         <div class="author">
-            <p><b> Kevin </b></p>
+            <p><b>Akshaay Vardhan</b></p>
         </div>
 
         <div class="end">
@@ -155,7 +155,7 @@ Publish the website in the LocalHost.
 </body>
 
 </html>
-'''
+```
 ## OUTPUT:
 
 

@@ -1,5 +1,7 @@
 # Ex.06 Book Front Cover Page Design
-## Date: 15.05.2025
+## Date:15/05/2025
+## Name: P KEVIN
+## Register no: 212224040159
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,133 +33,89 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-```
+```html
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Front Cover</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Arial', sans-serif;
-            background-color: #111;
-        }
+  <meta charset="UTF-8">
+  <title>Book Cover</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Georgia', serif;
+    }
 
-        .bookpage {
-            width: 400px;
-            height: 600px;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 20px;
-            position: relative;
-            background-image: url(Plane.jpg);
-            background-size: cover;
-            background-position: center;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-        }
+    .book-cover {
+      width: 400px;
+      height: 600px;
+      background: lightgoldenrodyellow;
+      border: 2px solid #333;
+      padding: 40px 30px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
-        .booktitle {
-            color: rgb(240, 252, 255);
-            font-family: 'Arial', sans-serif;
-            font-size: 25px;
-            text-align: center;
-            position: absolute;
-            top: 0px;
-            width: 90%;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-        }
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      color: #2e2e2e;
+      text-align: center;
+      line-height: 1.3;
+    }
 
-        .subtitle {
-            text-align: center;
-            font-size: 22px;
-            color: white;
-            position: absolute;
-            top: 80px;
-            width: 90%;
-            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-        }
+    .subtitle {
+      font-size: 16px;
+      margin-top: 10px;
+      text-align: center;
+      font-style: italic;
+    }
 
-        .mypic {
-            position: absolute;
-            top: 400px;
-            left: 35px;
-            width: 60px;
-            height: 100px;
-            background-size: cover;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-        }
+    .image {
+      flex: 1;
+      background: url('https://th.bing.com/th/id/OIP.r9cbucrSADdTufezcVvL3AHaF7?w=251&h=200&c=7&r=0&o=5&cb=iwc1&dpr=1.3&pid=1.7.png') center/contain no-repeat;
+      margin: 30px 0;
+    }
 
-        .author {
-            text-align: left;
-            color: rgb(127, 207, 244);
-            font-family: 'Georgia', serif;
-            font-size: 16px;
-            position: absolute;
-            top: 520px;
-            width: 100%;
-            text-shadow: 1px 1px 4px rgba(116, 211, 243, 0.5);
-        }
+    .author {
+      font-size: 18px;
+      text-align: center;
+      color: #444;
+      margin-top: 20px;
+    }
 
-        .id {
-            width: 100%;
-            position: absolute;
-            top: 520px;
-        }
-
-        .end {
-            color: azure;
-            font-size: 20px;
-            font-family: 'Verdana', sans-serif;
-            text-align: center;
-            position: absolute;
-            bottom: 20px;
-            width: 90%;
-            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-        }
-
-        hr {
-            border: none;
-            border-top: 1px solid blanchedalmond;
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-    </style>
+    .line {
+      height: 2px;
+      background: #333;
+      width: 50px;
+      margin: 10px auto;
+    }
+  </style>
 </head>
-
 <body>
-    <div class="bookpage">
-
-        <div class="booktitle">
-            <h1><font color="CYAN">THE LOST PLANE</font></h1>
-        </div>
-
-        <div class="mypic">
-            <img src="profilepic.jpg" width="110" height="120">
-        </div>
-
-        <div class="id">
-            <hr style="color: blanchedalmond">
-        </div>
-
-        <div class="author">
-            <p><b> Kevin </b></p>
-        </div>
-
-        <div class="end">
-            <b>THE DISAPPEARANCE OF THE PLANE</b>
-        </div>
+  <div class="book-cover">
+    <div>
+      <div class="title">The Psychology of Money </div>
+      <div class="line"></div>
+      <div class="subtitle">its ability to give you control over your time.</div>
     </div>
+    <div class="image">
+    </div>
+    <div class="author">By Morgan Housel </div>
+  </div>
 </body>
-
 </html>
 ```
-## OUTPUT:
 
+## OUTPUT:
+![image](https://github.com/user-attachments/assets/8bb36a09-6b05-4f5e-bef2-378b5a7fa5d3)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.

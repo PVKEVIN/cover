@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:15/05/2025
+## Date: 15/05/2025
 ## Name: P KEVIN
 ## Register no: 212224040159
 
